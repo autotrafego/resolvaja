@@ -1,0 +1,74 @@
+<div class="page" data-name="form-ecat">
+    <div class="navbar color-theme-orange">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="ios-only">Back</span>
+          </a>
+        </div>
+        <div class="title">Categorias</div>
+      </div>
+    </div>
+    <div class="page-content">
+      
+      <!-- <div class="list no-hairlines-md"> -->
+        <div class="list">
+
+        
+          <form class="list" id="form-content-user">
+          <ul>
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Nome</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="nameInput" id="nameInput" placeholder="nome da categoria"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">imagem</div>
+                    <div class="item-input-wrap">
+                      <input type="text" name="imgInput" id="imgInput" placeholder="imagem"/>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            
+            <li class="align-top">
+                <div class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Descrição</div>
+                    <div class="item-input-wrap">
+                      <textarea placeholder="Descrição" name="inputBio" id="inputBio"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+           
+          </ul>
+          </form>  
+        </div>
+        <div class="block block-strong">
+          <p class="row">
+            <a href="#" id="btnSalvar" class="col button button-big button-raised" >Salvar</a>
+            <a href="#" class="link back col button button-big button-fill button-raised" id="btnCancelar">Cancelar</a>
+          </p>
+        </div>
+    </div>
+  </div>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/framework7/2.0.10/js/framework7.min.js"></script>
+  <script>
+    var myApp = new Framework7();
+    var $$ = Dom7;
+  
+    $$('#btnSalvar').on('click', function(){
+      var formData = myApp.form.convertToData('#form-content-user');
+      //myApp.formaToJSON('#form-content-user');
+      alert(JSON.stringify(formData));
+    });
+  </script> -->

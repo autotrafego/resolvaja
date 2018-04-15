@@ -1,0 +1,51 @@
+<!--
+        cria-id.html
+        
+        Copyright 2009 Everton <Everton@PC-CASA>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xml:lang="en" lang="en">
+
+<head>
+	<title>Criação de ID (código) randômico com dígito verificador</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.17" />
+	
+	<script language="javascript">
+	function gera_id(){
+		var size = 5 ;//Gera o prompt que pergunta o tamanho do ID e armazena na variável
+		var randomized = Math.ceil(Math.random() * Math.pow(10,size));//Cria um número aleatório do tamanho definido em size.
+		var digito = Math.ceil(Math.log(randomized));//Cria o dígito verificador inicial
+		while(digito > 10){//Pega o digito inicial e vai refinando até ele ficar menor que dez
+			digito = Math.ceil(Math.log(digito));
+		}
+		var id = randomized + '-' + digito;//Cria a ID
+		alert(id);
+	}
+	</script>
+</head>
+
+<body>
+<h1>ID (código) randômico com dígito verificador</h1>
+<p>Neste script JavaScript vamos aprender como criar um ID (código único) aleatório com dígito verificador.</p>
+<p>Para isso, informe quando solicitado quantos dígitos deve ter o ID, excluindo o dígito verificador.</p>
+<a href="javascript:gera_id();">Clique aqui para criar um ID</a>
+</body>
+</html>

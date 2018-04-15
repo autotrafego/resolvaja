@@ -1,0 +1,248 @@
+<div class="page" data-name="form-lcat">
+  <div class="navbar color-theme-orange">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Categorias</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block-title">Categorias</div>
+    <!-- <div class="list no-hairlines-md"> -->
+      <div class="list">
+
+  <!-- Inicio tabela -->
+  <div class="data-table data-table-init card">
+      <div class="card-header">
+        <!-- Table links/actions -->
+        <div class="data-table-links">
+            
+          <!-- ADD -->
+          <a href="/form-cat/" data-view=".view-main" class="link panel-close ">
+            <i class="icon f7-icons ios-only">add_round_fill</i>
+            <i class="icon material-icons md-only">add_circle</i>
+          </a>
+              <!-- DELETE -->
+          <a class="link btnapagar" id="btndelete">
+              <i class="icon f7-icons ios-only">trash</i>
+              <i class="icon material-icons md-only">delete</i>
+          </a>
+              <!-- EDIT -->
+          <a class="link icon-only" href="/form-ecat/" data-view=".view-main" class="link panel-close ">
+            <i class="icon f7-icons ios-only">compose</i>
+            <i class="icon material-icons md-only">edit</i>
+          </a>
+        </div>
+        <!-- Table actions -->
+        <div class="data-table-actions">
+          <a class="link icon-only">
+            <i class="icon f7-icons ios-only">sort</i>
+            <i class="icon material-icons md-only">sort</i>
+          </a>
+          <div class="alvo"> </div> 
+          <a class="link icon-only">
+            <i class="icon f7-icons ios-only">more_vertical_round</i>
+            <i class="icon material-icons md-only">more_vert</i>
+          </a>
+        </div>
+      </div>
+      <div class="card-content">
+          <div class="card data-table">
+              <table id="frmcategoria">
+                <thead>
+                  <tr>
+                      <th class="checkbox-cell">
+                          <label class="checkbox">
+                            <input type="checkbox"/>
+                            <i class="icon-checkbox"></i>
+                          </label>
+                        </th>
+                    <!-- <th class="id-column label-cell">#</th> -->
+                    <th class="label-cell">Nome</th>
+                    <th class="numeric-cell">Id Imagem</th>
+                    <th class="numeric-cell">Descricao</th>
+                    <!-- <th class="text-center action-column">Editar</th>
+                    <th class="text-center action-column">Excluir</th> -->
+                  </tr>
+                </thead>
+                <tbody id="lcatv">
+                    <tr>
+                        <td class="checkbox-cell">
+                          <label class="checkbox">
+                            <input type="checkbox">
+                            <i class="icon-checkbox"></i>
+                          </label>
+                        </td>
+                        <td class="actions-cell">
+                          <a class="link icon-only">
+                            <i class="icon f7-icons ios-only">compose</i>
+                            <i class="icon material-icons md-only">edit</i>
+                          </a>
+                          <a href="#" class="link icon-only ">
+                            <i class="icon f7-icons ios-only">trash</i>
+                            <i class="icon material-icons md-only">delete</i>
+                            
+                          
+                          </a>
+                        </td>
+                      </tr>
+                </tbody>
+                </table>
+                <!-- <div class="data-table-pagination">
+                  <span class="data-table-pagination-label">1-5 of 10</span>
+                  <a href="#" class="link disabled">
+                    <i class="icon icon-prev color-gray"></i>
+                  </a>
+                  <a href="#" class="link">
+                    <i class="icon icon-next color-gray"></i>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+</div> 
+
+
+
+
+
+
+
+
+
+  <!-- <div class="card data-table">
+      <table>
+        <thead>
+          <tr>
+            <th class="id-column label-cell">#</th>
+            <th class="numeric-cell">Nome</th>
+            <th class="numeric-cell">Descricao</th>
+            <th class="text-center action-column">Editar</th>
+            <th class="text-center action-column">Excluir</th>
+          </tr>
+        </thead>
+        <tbody id="lcatv">
+        </tbody>
+
+      </table>
+      <div class="data-table-footer">
+        <div class="data-table-rows-select">
+          Per page:
+          <div class="input input-dropdown">
+            <select>
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="all">All</option>
+            </select>
+          </div>
+        </div>
+        <div class="data-table-pagination">
+          <span class="data-table-pagination-label">1-5 of 10</span>
+          <a href="#" class="link disabled">
+            <i class="icon icon-prev color-gray"></i>
+          </a>
+          <a href="#" class="link">
+            <i class="icon icon-next color-gray"></i>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+  <!-- Fim Tabela -->
+
+        <!-- <form class="list" id="form-content-user">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nome</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="nameInput" id="nameInput" placeholder="Your name"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">E-mail</div>
+                <div class="item-input-wrap">
+                  <input type="email" name="emailInput" id="emailInput" placeholder="E-mail"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Idade</div>
+                <div class="item-input-wrap">
+                  <input type="number" name="ageInput" id="ageInput" placeholder="Your age"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Telefone</div>
+                <div class="item-input-wrap">
+                  <input type="tel" placeholder="WhatsApp"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Sexo</div>
+                <div class="item-input-wrap">
+                  <select name="genderSelect" id="genderSelect">
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Data de Aniversário</div>
+                <div class="item-input-wrap">
+                  <input type="date" name="inputBirth" id="inputBirth" placeholder="Data de Aniversário" value="2014-04-30"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="align-top">
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Bio</div>
+                <div class="item-input-wrap">
+                  <textarea placeholder="Bio" name="inputBio" id="inputBio"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        </form>  
+      </div> 
+      <div class="block block-strong">
+        <p class="row">
+          <a href="#" id="btnSalvar" class="col button button-big button-raised" >Salvar</a>
+          <a href="#" class="col button button-big button-fill button-raised" id="btnCancelar">Cancelar</a>
+        </p>
+      </div>
+  </div>
+</div> 

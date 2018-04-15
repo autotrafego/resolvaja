@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Fitment Guide</title>
+
+  <!-- Our CSS style sheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Script -->
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div id="triviaPannels">
+      <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-4">
+          <h1>Onde voce precisa de um profissional ? </h1>
+          <select id="typeproff" class="form-control">
+            <option value="" disabled selected>Area</option>
+            <option value="1">Veiculos</option>
+            <option value="2">Residencia e Predial</option>
+          </select>
+
+          <select id="make" class="form-control">
+            <option value="" disabled selected>Make</option>
+            <option value="ACURA">ACURA</option>
+            <option value="ALFA_ROMEO">ALFA ROMEO</option>
+            <option value="AM_GENERAL">AM GENERAL</option>
+          </select>
+
+          <select id="model" class="form-control">
+            <option value="" disabled selected>Model</option>
+          </select>
+
+          <select id="trim" class="form-control">
+            <option value="" disabled selected>Trim</option>
+          </select>
+          <br /><br />
+          <div class="panel panel-default">
+            <div class="panel-heading">Results</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+

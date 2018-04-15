@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="framework7/css/framework7.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+        <div class="card-content">
+                <table>
+                  <thead>
+                    <tr>
+                        <th class="checkbox-cell">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                <i class="icon-checkbox"></i>
+                              </label>
+                        </th>
+                        <th class="label-cell">Id</th>
+                        <th class="label-cell">Nome</th>
+                        <th class="numeric-cell">Imagens</th>
+                        <th class="numeric-cell">Descrição</th>
+                      
+                        
+                    </tr>
+                  </thead>
+                  <tbody id="lcatv">
+
+                        <tr>
+                                <th class="id-column checkbox-cell">'+item.key+'</th>
+                                <td>'+ item.val().nome +'</td>
+                                <td>'+ item.val().img +'</td>
+                                <td>'+ item.val().desc +'</td>
+                                <td>'+ item.val().desc +'</td>
+                                <!-- <td class="text-center action-column">
+                                <button type="button" class="btn btn-link btn-warning text-warning"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </td>
+                                <td class="text-center action-column">
+                                <button type="button" class="btn btn-link btn-danger text-danger"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                </td> -->
+                                </tr>
+                       
+                        
+                        <!-- <td class="checkbox-cell">
+                            <label class="checkbox">
+                              <input type="checkbox">
+                              <i class="icon-checkbox"></i>
+                            </label>
+                          </td>
+                          <td class="label-cell id-column">Id</td>
+                      <td class="label-cell">nome</td>
+                      <td class="numeric-cell">imagem</td>
+                      <td class="numeric-cell">descricao</td>
+                      <td class="actions-cell">
+                        <a class="link icon-only">
+                          <i class="icon f7-icons ios-only">compose</i>
+                          <i class="icon material-icons md-only">edit</i>
+                        </a>
+                        <a class="link icon-only">
+                          <i class="icon f7-icons ios-only">trash</i>
+                          <i class="icon material-icons md-only">delete</i>
+                        </a>
+                      </td> -->
+                 
+                    
+                  </tbody>
+                </table>
+
+              </div>
+                <!-- Framework7 library -->
+  <script src="framework7/js/framework7.min.js"></script>
+
+            
+
+
+
+
+
+
+
+<!-- var listHtml = '<tr>
+        <th class="id-column checkbox-cell">'+item.key+'</th>
+        <td>'+ item.val().nome +'</td>
+        <td>'+ item.val().img +'</td>
+        <td>'+ item.val().desc +'</td>
+        <td class="text-center action-column">
+        <button type="button" class="btn btn-link btn-warning text-warning"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        </td>
+        <td class="text-center action-column">
+        <button type="button" class="btn btn-link btn-danger text-danger"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </td>
+        </tr> -->
