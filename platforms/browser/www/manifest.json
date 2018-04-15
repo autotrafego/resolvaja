@@ -1,0 +1,38 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "resolvaja",
+  "short_name": "resolvaja",
+  "version": "br.com.utracsistemas.resolvaja",
+  "description": "Resolvemos seus problemas.",
+  "author": "Grupo waysis",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    },
+    {
+      "src": "res/icon/android/icon-36-ldpi.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    },
+    {
+      "src": "res/icon/android/icon-48-mdpi.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    },
+    {
+      "src": "res/icon/android/icon-72-hdpi.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    },
+    {
+      "src": "res/icon/android/icon-96-xhdpi.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}

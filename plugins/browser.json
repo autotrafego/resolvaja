@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "br.com.resolvajamobile"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "br.com.utracsistemas.resolvaja"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "br.com.utracsistemas.resolvaja"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "br.com.utracsistemas.resolvaja"
+    }
+  },
+  "dependent_plugins": {}
+}
